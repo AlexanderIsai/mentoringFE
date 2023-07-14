@@ -1,0 +1,133 @@
+body {
+
+    height: 50%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1512px;
+}
+
+header {
+    background: #1ABC9C;
+    display: flex;
+    height: 70px;
+    padding: 15px 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 29px;
+}
+
+menu {
+    display: flex;
+    width: 357px;
+    justify-content: space-between;
+}
+
+.networks{
+    display: flex;
+    width: 160px;
+    justify-content: space-between;
+}
+
+.networks-icons {
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.menu-item {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.main-info {
+    display: flex;
+    height: 695px;
+}
+
+figure {
+    width: 50%;
+}
+
+.about-us {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 70px;
+    font-size: 20px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+article {
+    background: #DCFFEB;
+    padding: 100px 50px;
+
+}
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects-item {
+    width: 435px;
+    height: 380px;
+    cursor: pointer;
+}
+
+footer {
+    padding: 70px 50px;
+}
+
+.contacts {
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: space-between;
+}
+
+h6 {
+    color: darkgray;
+    margin-bottom: 30px;
+}
+
+.contacts-item {
+    width: 315px;
+}
+
+.contacts-item p {
+    line-height: 1.7;
+}
+
+.contacts .contacts-item:nth-child(4) p{
+    color: red;
+}
+
+i {
+    color: #F7654A;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
