@@ -1,0 +1,52 @@
+.currency {
+    margin: 0 auto;
+    border: 2px solid gray;
+}
+
+h1 {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+
+th, td {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+th:nth-child(1), tr td:nth-child(1) {
+    padding-right: 100px;
+}
+
+th:last-child, tr td:last-child {
+    padding-right: 35px;
+}
+
+tr {
+    display: flex;
+    border-bottom: 2px solid gray;;
+}
+
+th {
+    border-bottom: 4px solid gray;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.rate {
+    justify-content: end;
+    font-size: 24px;
+}
