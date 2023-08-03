@@ -1,0 +1,19 @@
+.networks{
+    display: flex;
+    width: 160px;
+    justify-content: space-between;
+}
+
+.networks-icons {
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
