@@ -19,7 +19,7 @@ body {
     background: red;
 }
 
-.pink{
+.pink {
     width: 200px;
     aspect-ratio: 1;
     background: pink;
@@ -51,6 +51,7 @@ p {
     width: 800px;
     margin-bottom: 20px;
 }
+
 .p1-blue, .p2-blue {
     color: blue;
 }
