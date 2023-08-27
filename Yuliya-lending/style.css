@@ -1,0 +1,224 @@
+
+.container {
+    max-width: 1440px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    padding-top: 17px;
+    padding-left: 167px;
+
+    background-color: #F4F9E2;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 26px;
+    padding-right: 133px;
+}
+
+menu {
+    display: flex;
+}
+
+h1 {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 48px;
+    margin-bottom: 50px;
+    color: #22356F;
+}
+
+.logo {
+
+    width: 119px;
+    aspect-ratio: 1;
+}
+
+img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.content {
+    width: 620px;
+    padding-top: 100px;
+}
+
+.info-description {
+    font-weight: 400;
+    font-size: 24px;
+    color: #22356F;
+    line-height: 2;
+}
+
+.dino {
+    width: 543px;
+    height: 533px;
+    margin-bottom: 86px;
+    padding-right: 57px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navi {
+    width: 311px;
+    justify-content: space-between;
+}
+
+.navi-item {
+    border-bottom: 2px solid transparent;
+    font-size: 14px;
+}
+
+.button {
+    width: 150px;
+    height: 50px;
+    font-size: 14px;
+    font-style: italic;
+    color: white;
+    background: #F9B640;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.navi-item:hover {
+    border-bottom: 2px solid #18CFAB;
+    cursor: pointer;
+}
+
+.offer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #62D0DF;
+    padding-left: 179px;
+}
+
+.offer-title {
+    padding-top: 131px;
+    color: white;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.info-offer {
+    width: 920px;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+    color: white;
+    line-height: 2;
+}
+
+.bike {
+    width: 520px;
+    height: 604px;
+    overflow: hidden;
+}
+
+.offer-content {
+    max-width: 720px;
+}
+
+.info-offer {
+    width: 590px;
+    text-align: justify;
+}
+
+.slogan {
+    padding: 252px 304px 137px 397px;
+}
+
+.slogan-content {
+    color: #22356F;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.6;
+    padding-bottom: 50px;
+}
+
+.service {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.service-item {
+    width: 480px;
+    aspect-ratio: 1;
+}
+
+.service .service-item:nth-child(1) {
+    background-color: #22356F;
+}
+
+.service .service-item:nth-child(2) {
+    background-color: #0052C1;
+}
+
+.service .service-item:nth-child(3) {
+    background-color: #76B58B;
+}
+
+.service-title {
+    padding: 126px 146px 282px 70px;
+    color: white;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 400;
+    position: relative;
+}
+
+.service-title::before {
+    content: "";
+    width: 340px;
+    border-bottom: 2px solid white;
+    position: absolute;
+    top: 96px;
+}
+
+.rent {
+    display: flex;
+    color: #22356F;;
+}
+
+.rent-bike {
+    width: 640px;
+    height: 800px;
+    overflow: hidden;
+}
+
+.rent-title {
+    font-size: 36px;
+    font-weight: 400;
+    font-style: italic;
+    padding-bottom: 50px;
+}
+
+.rent-description {
+    width: 800px;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+.rent-content {
+    padding: 242px 60px;
+}
+
