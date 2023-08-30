@@ -1,6 +1,3 @@
-let buttonForRed = document.querySelector('.square-red');
-let buttonForPink = document.querySelector('.square-pink');
-let buttonForGreen = document.querySelector('.square-green');
 let squareRed = document.querySelector('.red');
 let squarePink = document.querySelector('.pink');
 let squareGreen = document.querySelector('.green');
