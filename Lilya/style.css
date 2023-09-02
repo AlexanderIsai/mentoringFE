@@ -17,6 +17,7 @@ img {
     object-fit: cover;
     height: 100%;
 }
+
 .login {
     width: 140px;
     height: 50px;
@@ -24,6 +25,7 @@ img {
     font-weight: 500;
 
 }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -42,6 +44,7 @@ ul {
     padding: 10px;
     justify-content: space-between;
 }
+
 li {
     font-size: 16px;
     font-weight: 500;
@@ -70,6 +73,7 @@ button {
     border: 2px solid white;
     cursor: pointer;
 }
+
 .main-buttons {
     width: 425px;
 }
@@ -90,18 +94,21 @@ button:hover {
     flex-direction: column;
     align-items: center;
 }
+
 .image-item {
     width: 500px;
     height: 380px;
     overflow: hidden;
 }
+
 .image {
     margin-top: 35px;
     margin-bottom: 356px;
     display: flex;
     position: relative;
 }
-.image .image-item:nth-child(1){
+
+.image .image-item:nth-child(1) {
     background-image: linear-gradient(to bottom, transparent, black), url("img/board.png");
     background-size: cover;
     background-position: center;
@@ -110,7 +117,8 @@ button:hover {
     top: 54%;
     right: 50%;
 }
-.image .image-item:nth-child(3){
+
+.image .image-item:nth-child(3) {
     background-image: linear-gradient(to bottom, transparent, black), url("img/chat.png");
     width: 100%;
     background-size: cover;
@@ -120,7 +128,8 @@ button:hover {
     top: 51%;
     left: 54%;
 }
-.image .image-item:nth-child(2){
+
+.image .image-item:nth-child(2) {
     background-image: linear-gradient(to bottom, transparent, black), url("img/dash.png");
     background-size: cover;
     background-position: center;
@@ -167,37 +176,44 @@ button:hover {
     margin-bottom: 44px;
 }
 
-.gallery .gallery-image:nth-child(5){
+.gallery .gallery-image:nth-child(5) {
     width: 385px;
 }
-.gallery-image:nth-child(7){
+
+.gallery-image:nth-child(7) {
     width: 400px;
 }
+
 .see {
     font-size: 17px;
     width: 160px;
     height: 52px;
     margin-bottom: 50px;
 }
+
 .icons {
     display: flex;
     width: 832px;
     justify-content: space-between;
     margin-bottom: 50px;
 }
-.icons-items{
+
+.icons-items {
     height: 60px;
     cursor: pointer;
 }
+
 .icons-items:hover {
     scale: 1.5;
 }
+
 .partners {
     font-size: 17px;
     width: 176px;
     height: 52px;
     margin-bottom: 150px;
 }
+
 .blogs {
     display: flex;
     flex-direction: column;
@@ -205,6 +221,7 @@ button:hover {
     flex-wrap: wrap;
     margin-bottom: 220px;
 }
+
 .blogs-item {
     margin: 10px;
     width: 432px;
@@ -212,9 +229,11 @@ button:hover {
     object-fit: cover;
     overflow: hidden;
 }
-.blogs .blogs-item:nth-child(1){
+
+.blogs .blogs-item:nth-child(1) {
     height: 330px;
 }
+
 .open {
     width: 1220px;
     height: 370px;
