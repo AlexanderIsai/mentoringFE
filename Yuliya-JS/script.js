@@ -128,3 +128,32 @@ function calculateWater(time){
 }
 
 console.log(calculateWater(9))
+
+function myReduce(arr){
+    let result = 0;
+    for (let i = 0; i < arr.length; i++) {
+        result += arr[i]
+    }
+    return result;
+}
+
+const result1 = products.reduce((acc, val) => {
+    if (acc[val.category]) {
+        acc[val.category] += val.price;
+    } else {
+        acc[val.category] = val.price;
+    }
+    return acc;
+}, {});
+
+
+
+// Array reduce
+const array1 = [1, 2, 3, 4];
+
+// 0 + 1 + 2 + 3 + 4
+const initialValue = 0;
+const sumWithInitial = array1.reduce((accumulator, currentValue) => accumulator + currentValue, initialValue);
+
+console.log(sumWithInitial);
+// Expected output: 10

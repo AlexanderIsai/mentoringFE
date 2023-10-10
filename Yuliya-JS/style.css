@@ -1,0 +1,57 @@
+.main-color {
+    color: blue;
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.show-mw {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    background: red;
+    padding: 15px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.mw-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+.form-mw{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 66%;
+    width: 33%;
+    background: white;
+    border-radius: 25px;
+}
+.form-content {
+    color: blue;
+    font-size: 68px;
+    font-weight: bold;
+    opacity: 1;
+}
+.close{
+    font-size: 70px;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    cursor: pointer;
+}
+.hide {
+    display: none;
+}

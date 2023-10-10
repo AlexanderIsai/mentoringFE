@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container {
+    display: grid;
+    height: 400px;
+    aspect-ratio: 3.5;
+    grid-template-columns: 1fr 0.4fr 1fr 2fr 1fr;
+    grid-auto-rows: 1fr 1fr 1fr 1fr;
+    gap: 3px;
+}
+
+div {
+
+    background: green;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d1 {
+background: blueviolet;
+}
+.d2 {
+    background: red;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.dCSS {
+    background: orange;
+    grid-row: span 4;
+}
+.d4 {
+    background: pink;
+}
+.d6 {
+    background: greenyellow;
+}
+.d7 {
+    background: brown;
+}
+.d8 {
+    background: blue;
+}
+.d9 {
+    background: black;
+}
+.d10 {
+    background: #0052C1;
+}
+.d11 {
+    background: darkgreen;
+    grid-column: span 3;
+}
+.d12 {
+    background: saddlebrown;
+}
+

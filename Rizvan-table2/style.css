@@ -1,0 +1,17 @@
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 50px 100px;
+}
+.test{
+    width: 200px;
+    height: 200px;
+    background: green;
+}
+
+.test1{
+    width: 200px;
+    height: 200px;
+    background: blue;
+
+}
