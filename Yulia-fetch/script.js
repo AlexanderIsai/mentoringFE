@@ -24,6 +24,7 @@ function getData2(url){
 getData2(url)
 
 function renderAll(data){
+
         data.forEach(e => {
             render(e)
         })
