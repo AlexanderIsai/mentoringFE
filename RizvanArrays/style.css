@@ -1,0 +1,20 @@
+/* Скрыть стандартный checkbox */
+input[type="checkbox"] {
+    display: none;
+}
+
+/* Создать круглую форму для кастомного checkbox */
+input[type="checkbox"] + label {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+
+

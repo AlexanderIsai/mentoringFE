@@ -99,3 +99,13 @@ function getAdultPeople(array){
 
 let more30 = getAdultPeople(people)
 console.log(more30)
+
+let check = document.querySelector('label')
+
+check.addEventListener('click', () => {
+    if(check.textContent === ""){
+        check.innerHTML = '&#10003;'
+    } else {
+        check.innerHTML = ""
+    }
+})
